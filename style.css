@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: Ubuntu Mono;
+}
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    --night: #110603;
+    --cherry-blossom-pink: #ffb7c5ff;
+    --white: #ffffffff;
+    --madder: #a50021ff;
+    --tea-green: #d0f0c0ff;
+}
+header{
+    background-image: url('pic02.jpeg');
+    background-size: cover;
+    filter: brightness(40%);
+    background-position: bottom;
+    height: 708px;
+}
+nav img{
+    margin-top: 10px;
+    margin-left: 40px;
+    z-index: 2;
+    height: 125px;
+    position: absolute;
+}
+nav,
+.nav-bar{
+    height: 150px;
+    background: rgba(255, 255, 255, 0.3);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    overflow: hidden;
+}
+.nav-bar{
+    padding-left: 500px;
+}
+.option{
+    padding-top: 50px;
+    display: inline-block;
+    padding-right: 150px;
+}
+.option a{
+    color: var(--night);
+    font-family: Satisfy;
+    font-size: 40px;
+    text-decoration: none;
+}
+a:hover{
+    color: var(--madder);
+}
+#Sec01{
+    height: 740px;
+    background-image: url(bg01.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+#Sec01  h1{
+    font-family: Amatic SC;
+    color: var(--white);
+    font-size: 50px;
+    text-align: center;
+    padding-top: 150px;
+}
+.team{
+    display: inline-flex;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.user{
+    height: 200px;
+    padding-right: 90px;
+}
+.name-c{
+    display: inline-flex;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 225px;
+}
+.name{
+    padding-right: 125px;
+    font-size: 20px;
+    text-align: center;
+    color: var(--white);
+}
+#Sec02{
+    height: 740px;
+    background-color: var(--night);
+}
+#Sec02 h1{
+    font-size: 200px;
+    font-family: Satisfy;
+    color: var(--white);
+    padding-top: 10px;
+    padding-left: 80px;
+    position: absolute;
+}
+#Sec02 p{
+    font-size: 30px;
+    font-family: Ubuntu Mono;
+    color: var(--white);
+    padding-left: 650px;
+    padding-right: 100px;
+    margin-top: 200px;
+}
+#Sec03{
+    height: 710px;
+    background-color: var(--madder);
+}
+footer{
+    height: 200px;
+    background-color: var(--night);
+    
+}
+footer img{
+    height: 50px;
+    filter: invert(100%);
+    padding-right: 20px;
+}
+.social-c{
+    margin-top: 70px;
+    margin-left: 550px;
+}
+.social:hover{
+    filter: invert(95%) sepia(61%) saturate(7046%) hue-rotate(287deg) brightness(106%) contrast(101%);
+}
+.social:active{
+    filter: invert(10%) sepia(90%) saturate(4314%) hue-rotate(337deg) brightness(94%) contrast(115%);
+}
+footer p{
+    position: absolute;
+    margin-top: 50px;
+    display: inline;
+    color: var(--white);
+    font-family: Ubuntu Mono;
+}
+p a{
+    color: var(--white);
+    text-decoration: none;
+}
+p a:hover{
+    color: var(--cherry-blossom-pink);
+    text-decoration: none;
+}
+.p1{
+    margin-left: 350px;
+}
+.p2{
+    margin-left: 525px;
+}
+.p3{
+    margin-left: 620px;
+}

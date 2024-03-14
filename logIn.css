@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: Ubuntu Mono;
+}
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    --night: #110603;
+    --cherry-blossom-pink: #ffb7c5ff;
+    --white: #ffffffff;
+    --madder: #a50021ff;
+    --tea-green: #d0f0c0ff;
+}
+nav img{
+    margin-top: 10px;
+    margin-left: 40px;
+    height: 125px;
+    position: absolute;
+}
+nav{
+    height: 150px;
+    background-color: rgba(255, 255, 255, 0.3);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    overflow: hidden;
+}
+.nav-bar{
+    padding-left: 500px;
+}
+.option{
+    padding-top: 50px;
+    display: inline-block;
+    padding-right: 150px;
+}
+.option a{
+    color: var(--night);
+    font-family: Satisfy;
+    font-size: 40px;
+    text-decoration: none;
+}
+a:hover{
+    color: var(--madder);
+}
+body{
+    background-image: url('bg03.jpg');
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+.box{
+    height: 550px;
+    width: 1200px;
+    background-color: rgba(0, 0, 0, 0.5);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+h1{
+    font-family: Amatic SC;
+    font-size: 60px;
+    font-weight: 900;
+    color: var(--white);
+    position: absolute;
+    padding-left: 300px;
+    padding-top: 20px;
+}
+form img{
+    position: absolute;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.form-box{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+td{
+    padding-bottom: 40px;
+}
+.icons{
+    position: absolute;
+    height: 20px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+input[type=text], input[type=password], input[type=email]{
+    width: 400px; 
+    height: 50px;
+    border-radius: 10px;
+    padding-left: 40px;
+}
+.passWord{
+    position: absolute;
+    padding-top: 370px;
+    padding-left: 200px;
+    text-decoration: none;
+    color: var(--white);
+}
+.passWord:hover{
+    color: var(--cherry-blossom-pink);
+}
+.passWord:active{
+    color: var(--madder);
+}
+button{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 420px;
+    width: 400px; 
+    height: 50px;
+    background-color: var(--cherry-blossom-pink);
+    font-size: 20px;
+}
+button:active{
+    background-color: var(--madder);
+    color: var(--white);
+}
+
+.box02{
+    position: fixed;
+    height: 450px;
+    width: 400px;
+    margin-top: 50px;
+    margin-left: 750px;
+    border-top-left-radius: 200px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-image: url('bg03.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+footer{
+    height: 200px;
+    background-color: var(--night);
+    margin-top: auto;
+}
+footer img{
+    height: 50px;
+    filter: invert(100%);
+    padding-right: 20px;
+}
+.social-c{
+    margin-top: 70px;
+    margin-left: 550px;
+}
+.social:hover{
+    filter: invert(95%) sepia(61%) saturate(7046%) hue-rotate(287deg) brightness(106%) contrast(101%);
+}
+.social:active{
+    filter: invert(10%) sepia(90%) saturate(4314%) hue-rotate(337deg) brightness(94%) contrast(115%);
+}
+footer p{
+    position: absolute;
+    margin-top: 50px;
+    display: inline;
+    color: var(--white);
+    font-family: Ubuntu Mono;
+}
+p a{
+    color: var(--white);
+    text-decoration: none;
+}
+p a:hover{
+    color: var(--cherry-blossom-pink);
+    text-decoration: none;
+}
+.p1{
+    margin-left: 350px;
+}
+.p2{
+    margin-left: 525px;
+}
+.p3{
+    margin-left: 620px;
+}
